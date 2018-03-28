@@ -1,0 +1,118 @@
+body {
+	background-image: url(../Images/3.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+div {
+    margin: auto;
+    padding: 12px;
+    text-align: justify;
+}
+.logo{
+    margin: 5px 15px;
+    height: 150px;
+}
+.simple-form{
+    text-align: center;
+    margin: 100px 50px;
+    width:320px;
+    height: 420px;
+ 
+    top:50%;
+    left:50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 100px 50px;
+    
+}
+
+#registration{
+    width: 100%;
+    text-align: justify;
+    opacity: 0.8;
+    padding: 100px 250px;
+}
+#button{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    column-span: all;
+}
+{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#phone{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+}
+{
+    color: white;
+    font-size: 18px;
+}
+.registration input[type="submit"]
+{
+    
+    border:none;
+   
+    outline: none;
+    height: 40px;
+    background: darkorange;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+.registration input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffbb33;
+    color: brown;
+}
+h2 {
+    font-family: 'Averia Sans Libre', cursive;
+    text-align: center;
+    font-size: 25pt;
+    color: #ffa500;
+}
+.nav-bar{
+    background: rgbt(0,0,0,0.5);
+    height: 80px;
+}
+.menu{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+.menu li a{
+    text-decoration: none;
+    color:wheat;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid orange;
+    background-color: orange
+    
+}
+form{
+    margin: 100px 500px;
+    align-content: center;
+}
+.form span {
+    width: 150px;
+    display: block;
+    float: left;
+    color: #ffa500;
+}
+.gender {
+    padding-left: 10px;
+}

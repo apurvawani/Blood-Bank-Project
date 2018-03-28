@@ -1,0 +1,77 @@
+body{
+   
+    background-image: url(../Images/3.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+.logo{
+    margin: 5px 15px;
+    height: 150px;
+}
+h1 {
+    font-family: 'Averia Sans Libre', cursive;
+    text-align: center;
+    font-size: 25pt;
+    color: #ffa500;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color:#ffa64d;
+    font-family: sans-serif;
+
+}
+h3{
+    text-align: center;
+}
+
+.menu{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+.menu li a{
+    text-decoration: none;
+    color:wheat;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid orange;
+    background-color: orange
+}
+.registration input[type="submit"]
+{
+    
+    border:none;
+    margin: 0 100px;
+    outline: none;
+    height: 40px;
+    background: darkorange;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+.form span {
+    width: 150px;
+    display: block;
+    float: left;
+    color: #ffa500;
+    font-weight: bold;
+}
+.registration input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffbb33;
+    color: brown;
+}
+form{
+    margin: 120px 500px;
+    align-content: center;
+}
+

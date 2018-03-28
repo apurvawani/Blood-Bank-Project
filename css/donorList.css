@@ -1,0 +1,95 @@
+form {
+	margin: 100px 500px;
+}
+body {
+	background-image: url(../Images/3.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+th {
+    color: #ffffcc;
+}
+.form span {
+    width: 250px;
+    display: block;
+    float: left;
+    color: #ffa500;
+    font-weight: bold;
+}
+.tint-box {
+    border: 3px solid white;
+    border-collapse: collapse;
+    color: #ffa500;
+    text-align: center;
+    margin: auto;
+}
+.tint-box td {
+
+    border: 2px solid white;
+    padding: 5px;
+    font-size: 20px;
+
+}
+.tint-box th {
+    border: 2px solid white;
+    font-size: 25px;
+}
+
+div {
+	margin: auto;
+	padding: 15px;
+	text-align: justify;
+}
+h1 {
+	font-family: 'Averia Sans Libre', cursive;
+	text-align: center;
+	font-size: 25pt;
+	color: #ffa500;
+}
+.submit input[type="submit"]{
+      margin: 0 120px;
+      border:none;
+    outline: none;
+    height: 40px;
+    background color:orange;
+    color: maroon;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    align-self: center;
+}
+.submit input[type="submit"]:hover{
+   cursor: pointer;
+    background color: #ff751a;
+    color:maroon; 
+}
+
+.logo{
+    margin: 2px 12px;
+    height: 150px;
+}
+
+.nav-bar{
+    background: rgbt(0,0,0,0.5);
+    height: 80px;
+}
+.menu{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+.menu li a{
+    text-decoration: none;
+    color:wheat;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid orange;
+    background-color: orange
+    
+}
